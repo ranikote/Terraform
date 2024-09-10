@@ -1,0 +1,12 @@
+mkdir hello-word
+cd hello-word
+vi firts.tf
+nano first.tf
+#This ic comment
+// This is comment
+output hello1 {
+value = "Hello world 123 "
+}
+tearraform plan
+Terraform plan tells=ON 
+It allows you to see what actions Terraform will take (add, modify, or delete resources) without actually applying them.
