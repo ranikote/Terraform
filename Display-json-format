@@ -1,0 +1,12 @@
+Writing terraform in json format
+mkdir hello-json
+cd hello-json
+vi firts.tf.json
+{
+    "output": {
+           "hello1" : {
+                 "value" : "Hello GAurav"
+           }
+      }
+   }
+tearrform plan
