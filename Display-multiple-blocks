@@ -1,0 +1,12 @@
+ Multiple block in single terraform file
+We will write mutiple blocks in single tearraform file
+mkdir hello-multiterraform
+cd hello-multiterraform
+output "firstoutputblock" {
+      value= " This is first hello word block"
+}
+
+output "secondoutpublock" {
+       value= "This is second output block"
+}
+Terraform plan 
